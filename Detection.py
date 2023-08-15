@@ -93,6 +93,6 @@ class Detection:
     def Run(self):
         Endex = self.Endex().Data
         return SuccessDataResult(data = Endex)
-Detect = Detection(model="C:\\Users\\incar\\Desktop\\detection.pt", img="C:\\Users\\incar\\Desktop\\endeks\\612.jpg")
+Detect = Detection(model="detection.pt", img="ImagePath")
 # Detect.Run()
 print(Detect.Run().Data)
